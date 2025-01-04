@@ -1,3 +1,6 @@
+*.wav
+*.mp3
+*.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -122,6 +125,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+!.env.example
 .env
 .venv
 env/

@@ -1,31 +1,19 @@
 [project]
-name = "insanely-fast-whisper"
-version = "0.0.15"
-description = "An insanely fast whisper CLI"
-authors = [
-    { name = "VB", email = "reachvaibhavs10@gmail.com" },
-    { name = "Patrick Arminio", email = "patrick.arminio@gmail.com" },
-]
-dependencies = [
-    "transformers",
-    "accelerate",
-    "pyannote-audio>=3.1.0",
-    "setuptools>=68.2.2",
-    "rich>=13.7.0",
-]
-requires-python = ">=3.8"
+name = "insane-whisper-api"
+version = "0.1.0"
+description = "Add your description here"
 readme = "README.md"
-license = { text = "MIT" }
-
-
-[build-system]
-requires = ["pdm-backend"]
-build-backend = "pdm.backend"
-
-[project.scripts]
-insanely-fast-whisper = "insanely_fast_whisper.cli:main"
-
-[project.urls]
-# Name based
-Homepage = "https://github.com/Vaibhavs10/insanely-fast-whisper"
-Twitter = "https://twitter.com/reach_vb"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.2.1",
+    "bcrypt>=4.2.1",
+    "fastapi>=0.115.6",
+    "ffmpeg-python>=0.2.0",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.0.1",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.36",
+    "torch>=2.5.1",
+    "transformers>=4.47.1",
+    "uvicorn>=0.34.0",
+]
